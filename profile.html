@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>Profile</title>
+    </head>
+    <body>
+        <div class="profile-page-container container">    
+            <div class="previous-page-button" onclick="javascript:history.back()">
+                <img src="img/back-arrow.svg" alt="" class="previous-page-arrow-img">
+            </div>
+            <div class="profile-icon-container">
+                <img src="img/profile-icon.png" alt="" class="profile-icon">
+            </div>
+            <div class="user-profile-text">
+                <h1 class="profile-user-name page-name">User</h1>
+                <h3 class="user-location low-header">MOSCOW, RUSSIA</h3>
+            </div>
+            <div class="user-profile-buttons-container forms-container">
+                <div class="following-button button user-button" onclick="document.location='discover.html'">
+                    <strong>FOLLOW USER</strong>
+                </div>
+                <div class="message-button button user-button" onclick="document.location='discover.html'">
+                    <strong>MESSAGE</strong>
+                </div>
+            </div>
+
+            <div class="user-photos photos">
+                <h3 class="all-photos-head low-header">USER`S PHOTO</h3>
+                <div class="user-photos-container photos-container">
+                    <div class="user-photos-column photos-column">
+                        <img src="img/user-photos/user-photos11.png" alt="" class="user-photos-item photos-item">
+                        <img src="img/user-photos/user-photos12.png" alt="" class="user-photos-item photos-item">
+                        <img src="img/user-photos/user-photos13.png" alt="" class="user-photos-item photos-item">
+                    </div>
+                    <div class="user-photos-column photos-column">
+                        <img src="img/user-photos/user-photos21.png" alt="" class="user-photos-item photos-item">
+                        <img src="img/user-photos/user-photos22.png" alt="" class="user-photos-item photos-item">
+                        <img src="img/user-photos/user-photos23.png" alt="" class="user-photos-item photos-item">
+                    </div>
+                </div>
+            </div>
+
+        </div>  
+        <footer class="control-panel">
+            <div class="control-panel-buttons-container">
+                <div class="control-panel-home-button control-button" onclick="document.location='discover.html'">
+                    <img src="img/control-panel-home.svg" alt="" class="panel-button-img">
+                </div>
+                <div class="control-panel-loupe-button control-button" onclick="document.location='search.html'">
+                    <img src="img/control-panel-loupe.svg" alt="" class="panel-button-img">
+                </div>
+                <div class="control-panel-main-button control-button">
+                    <img src="img/control-panel-main-button.svg" alt="" class="panel-button-img main-button-img">
+                </div>
+                <div class="control-panel-messages-button control-button" onclick="document.location='chats.html'">
+                    <img src="img/control-panel-messages.svg" alt="" class="panel-button-img messages-buttom-img">
+                </div>
+                <div class="control-panel-person-button control-button" onclick="document.location='profile.html'">
+                    <img src="img/control-panel-person.svg" alt="" class="panel-button-img person-button-img">
+                </div>
+            </div>
+            <div class="bottom-shape-container">
+                <hr class="bottom-shape">
+            </div>
+        </footer>       
+    </body>
+</html>

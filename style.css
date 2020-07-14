@@ -1,0 +1,313 @@
+/*рассортировать цсс для удобства или выучи препроцессоры придурок*/
+/*делай слайдер*/
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(fonts/Comfortaa-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-size: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text {
+    font-size: 2em;
+}
+
+.sign-page {
+    background-image: url(img/main-content-background.png);
+    background-size: 100% 100%;
+}
+
+.main-content {
+    width: 100%;
+    height: 85%;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.signing-button {
+    width: 45%;
+    background-color: #fff;
+}
+
+.nav-menu {
+    width: 100%;
+    height: 12%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-shape-container {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.bottom-shape {
+    border: none;
+    background-color: #000;
+    height: 1em;
+    width: 40%;
+    border-radius: 1em;
+    position: fixed;
+    bottom: 0;
+}
+
+.company-logo-container {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.company-logo {
+    width: 50%;
+}
+
+
+
+
+
+.container {
+    width: 90%;
+    height: 60%;
+    padding-top: 5em;
+    margin: 0 auto;
+} 
+
+.previous-page-arrow-img {
+    width: 2em;
+}
+
+.page-name {
+    font-family: Comfortaa;
+    font-size: 6em;
+}
+
+.forms-container {
+    width: 100%;
+    height: 35em;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.forms {
+    width: 90%;
+    padding: .8em;
+    border: solid 4px #000;
+    border-radius: .2em;
+    font-size: 3em;
+}
+
+.button {
+    height: 4em;
+    box-sizing: border-box;
+    border: 5px solid #000;
+    border-radius: 1em;
+    font-size: 2.1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirm-button {
+    color: #fff;
+    background-color: #000;    
+}
+
+
+
+
+
+
+
+.control-panel {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding-top: 2em;
+    border-top: solid 1px grey;
+    background: #fff;
+}
+
+.control-panel-buttons-container {
+    width: 100%;
+    height: 40%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3.1em;
+}
+
+.control-button {
+    width: 3em;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-button-img {
+    width: 100%;
+    height: 3em;
+}
+
+.control-panel-main-button {
+    width: 11em;
+    height: 6em;
+    background: linear-gradient(193.11deg, #FF00D6 8.58%, #FF4D00 91.42%);;
+    border-radius: 5em;
+}
+
+.main-button-img {
+    width: 20%;
+}
+
+.low-header {
+    font-size: 2em;
+}
+
+.slider-image {
+    width: 100%;
+}
+
+.today-news-slider-photo {
+    margin-bottom: 1.5em;
+}
+
+.user-plate {
+    width: 19em;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.user-icon {
+    width: 5.5em;
+}
+
+.user-plate-text {
+    font-size: 1.7em;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photos {
+    margin-top: 7em; /*подогнать нужную высоту!!!!*/
+}
+
+.photos-container {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 15em;
+}
+
+.photos-column {
+    width: 49%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.photos-item {
+    width: 100%;
+    margin: .6em 0 .6em 0;
+}
+
+
+.profile-icon-container {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.profile-icon {
+    width: 35%;
+}
+
+.user-profile-text {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.profile-user-name {
+    margin-bottom: .3em;
+}
+
+.user-profile-buttons-container {
+    justify-content: start;
+    height: auto;
+}
+
+.user-button {
+    margin-bottom: 1em;
+}
+
+
+
+
+.chats-page-container {
+    width: 100%;
+}
+
+.chats-header {
+    font-size: 3em;
+    margin: 1em 0 0 0;
+    padding: 1em;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.user-chat {
+    width: 100%;
+    height: 15em;
+    border-bottom: 1px solid grey;
+    display: inline-flex;
+    justify-content: start;
+    vertical-align: center;
+}
+
+.user-chat-icon {
+    width: 20%;
+    margin: 0 1em 0 1em;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-chat-icon-img {
+    width: 100%;
+}
+
+.user-chat-text {
+    width: 80%;
+    font-size: 2em;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
